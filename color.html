@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore Basic CSS</title>
+    <style>
+        #short{
+            color: red;
+            text-align: center;
+        }
+        p{
+            background-color: bisque;
+            width: 50%;
+        }
+        li{
+            color: gray;
+        }
+        #embedded{
+            font-size: larger;
+            font-weight: bolder;
+        }
+        .players{
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
-    <h3>Learning Basic CSS</h3>
+    <h3 style="color: blueviolet;">Learning Basic CSS</h3>
+    <h4 style="background-color: aquamarine;">Inline CSS</h4>
     <p>CSS full form is Cascading Style Sheet</p>
+    <p>Style is colorful</p>
+    <p id="short">Style is fun</p>
+    <p>Short form is CSS</p>
+    <p>Needs style rule and value separated by colon</p>
+    <p>after one style need to use semi-colon</p>
+    <ul>
+        <li>Inline CSS</li>
+        <li id="embedded">Internal CSS</li>
+        <li>External CSS</li>
+    </ul>
+    <p>This is another paragraph</p>
+    <p class="players">players are good at cricket</p>
 </body>
 </html>
