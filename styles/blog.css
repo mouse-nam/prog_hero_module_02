@@ -1,16 +1,32 @@
+.header{
+    height: 300px;
+    background-color: aquamarine;
+}
+
 h3{
     font-size: 30px;
     text-decoration: overline;
     margin: 20px solid tomato;
+    font-family: 'Courier New', Courier, monospace;
     
 }
 .blogs{
     margin: 20px;
     border: 10px solid tomato;
-    box-shadow: 10px 10px;
+    box-shadow: 10px 10px 20px blueviolet;
 }
 .second{
     /* display: none; */
     /* visibility: hidden;
      */
+}
+.incident{
+    border: 1px solid purple;
+    margin: 20px;
+    display: inline-block;
+   
+}
+
+li{
+    display: inline;
 }
