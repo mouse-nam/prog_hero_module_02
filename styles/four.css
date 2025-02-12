@@ -1,0 +1,25 @@
+.header{
+     height: 300px; 
+    /* background-color: aquamarine; */
+    background-image: url("tree.jpg");
+    /* background-repeat: no-repeat; */
+    /* height: 300px;
+    width: 300px; */
+    /* background-size: 150px; */
+    
+}
+h1{
+    text-align: center;
+}
+.four{
+    background-color:darkgrey;
+    border: 5px solid turquoise;
+    border-radius: 2px;
+    margin: 10px;
+
+}
+.minima{
+    border:2px solid red;
+    height: 60px;
+    display: inline-block;
+}
