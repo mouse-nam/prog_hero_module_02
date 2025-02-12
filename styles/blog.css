@@ -1,6 +1,12 @@
 .header{
     height: 300px;
     background-color: aquamarine;
+    background-image: url(grandma.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-size:cover; */
+    /* background-size: contain; */
+    background-size: 200px;
+    /* background-repeat: no-repeat; */
 }
 
 h3{
@@ -29,4 +35,10 @@ h3{
 
 li{
     display: inline;
+}
+
+.dollar{
+    border: 2px solid peru;
+    height: 60px;
+    display: inline-block;
 }
